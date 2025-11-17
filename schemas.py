@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional, List
 from datetime import datetime
-
+import models
 
 class RegisterRequest(BaseModel):
     username: str
